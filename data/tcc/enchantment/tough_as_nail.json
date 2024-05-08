@@ -1,0 +1,60 @@
+{
+    "anvil_cost": 8,
+    "description": {
+      "translate": "enchantment.tcc.tough_as_nail",
+      "fallback":"固若金汤"
+    },
+    "effects": {
+      "minecraft:attributes": [
+        {
+          "amount": {
+            "type": "minecraft:linear",
+            "base": -0.18,
+            "per_level_above_first": -0.10
+          },
+          "attribute": "minecraft:generic.movement_speed",
+          "name": "enchantment.tough_as_nail",
+          "operation": "add_multiplied_base",
+          "uuid": "2f786e85-e0df-4b20-a794-173e125443d2"
+        },
+        {
+          "amount": {
+            "type": "minecraft:linear",
+            "base": 4,
+            "per_level_above_first": 3
+          },
+          "attribute": "minecraft:generic.armor",
+          "name": "enchantment.tough_as_nail",
+          "operation": "add_value",
+          "uuid": "78dcd6f5-518a-419f-b6eb-aac87c50ea23"
+        },
+        {
+          "amount": {
+            "type": "minecraft:linear",
+            "base": 2,
+            "per_level_above_first": 1.5
+          },
+          "attribute": "minecraft:generic.armor_toughness",
+          "name": "enchantment.tough_as_nail",
+          "operation": "add_value",
+          "uuid": "674c8be8-62e6-4866-bfcb-d45a2ea9704c"
+        }
+      ]
+    },
+    "max_cost": {
+      "base": 75,
+      "per_level_above_first": 25
+    },
+    "max_level": 3,
+    "min_cost": {
+      "base": 25,
+      "per_level_above_first": 25
+    },
+    "slots": [
+      "legs"
+    ],
+    "exclusive_set": "#tcc:exclusive_set/swift_sneak",
+    "supported_items": "#minecraft:enchantable/leg_armor",
+    
+    "weight": 1
+  }

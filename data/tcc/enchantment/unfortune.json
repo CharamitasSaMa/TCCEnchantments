@@ -1,0 +1,37 @@
+{
+    "anvil_cost": 4,
+    "description": {
+      "translate": "enchantment.tcc.unfortune",
+      "fallback":"时运不济"
+    },
+    "effects": {
+        "minecraft:attributes": [
+            {
+              "amount": {
+                "type": "minecraft:linear",
+                "base": -5,
+                "per_level_above_first": -5
+              },
+              "attribute": "minecraft:generic.luck",
+              "name": "enchantment.glass_falling",
+              "operation": "add_value",
+              "uuid": "1f3ae126-da4c-4977-bb95-dd0f3ba7366a"
+            }
+          ]
+    },
+    "exclusive_set": "#tcc:exclusive_set/fortune",
+    "max_cost": {
+      "base": 65,
+      "per_level_above_first": 9
+    },
+    "max_level": 3,
+    "min_cost": {
+      "base": 15,
+      "per_level_above_first": 9
+    },
+    "slots": [
+      "mainhand"
+    ],
+    "supported_items": "#minecraft:enchantable/durability",
+    "weight": 2
+  }

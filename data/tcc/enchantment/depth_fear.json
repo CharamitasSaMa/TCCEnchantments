@@ -1,0 +1,37 @@
+{
+    "anvil_cost": 4,
+    "description": {
+      "translate": "enchantment.tcc.depth_fear",
+      "fallback":"深海腿软者"
+    },
+    "effects": {
+      "minecraft:attributes": [
+        {
+          "amount": {
+            "type": "minecraft:linear",
+            "base": -0.33333334,
+            "per_level_above_first": -0.33333334
+          },
+          "attribute": "minecraft:generic.water_movement_efficiency",
+          "name": "enchantment.depth_strider",
+          "operation": "add_value",
+          "uuid": "11dc269a-4476-46c0-aff3-9e17d7eb6801"
+        }
+      ]
+    },
+    "exclusive_set": "#tcc:exclusive_set/depth_strider",
+    "max_cost": {
+      "base": 25,
+      "per_level_above_first": 10
+    },
+    "max_level": 3,
+    "min_cost": {
+      "base": 10,
+      "per_level_above_first": 10
+    },
+    "slots": [
+      "feet"
+    ],
+    "supported_items": "#minecraft:enchantable/foot_armor",
+    "weight": 1
+  }

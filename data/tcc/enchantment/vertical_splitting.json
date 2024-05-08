@@ -1,0 +1,37 @@
+{
+    "anvil_cost": 4,
+    "description": {
+      "translate": "enchantment.tcc.vertical_splitting",
+      "fallback":"竖劈之刃"
+    },
+    "effects": {
+      "minecraft:attributes": [
+        {
+            "amount": {
+                "type": "minecraft:linear",
+                "base": -100,
+                "per_level_above_first": -100
+              },
+          "attribute": "minecraft:player.sweeping_damage_ratio",
+          "name": "enchantment.sweeping_edge",
+          "operation": "add_value",
+          "uuid": "5d3d087b-debe-4037-b53e-d84f3ff51f17"
+        }
+      ]
+    },
+    "max_cost": {
+      "base": 20,
+      "per_level_above_first": 9
+    },
+    "max_level": 1,
+    "min_cost": {
+      "base": 5,
+      "per_level_above_first": 9
+    },
+    "slots": [
+      "mainhand"
+    ],
+    "exclusive_set": "#tcc:exclusive_set/sweeping_edge",
+    "supported_items": "#minecraft:enchantable/sword",
+    "weight": 2
+  }

@@ -1,0 +1,70 @@
+{
+    "anvil_cost": 4,
+    "description": {
+      "translate": "enchantment.tcc.berserker",
+      "fallback":"狂战士"
+    },
+    "effects": {
+      "minecraft:attributes": [
+        {
+          "amount": {
+            "type": "minecraft:linear",
+            "base": 0.10,
+            "per_level_above_first": 0.05
+          },
+          "attribute": "minecraft:generic.attack_damage",
+          "name": "enchantment.berserker",
+          "operation": "add_multiplied_base",
+          "uuid": "c46b479a-9560-4b07-81a8-6d7de28805a5"
+        },
+        {
+          "amount": {
+            "type": "minecraft:linear",
+            "base": 0.20,
+            "per_level_above_first": 0.1
+          },
+          "attribute": "minecraft:generic.attack_speed",
+          "name": "enchantment.berserker",
+          "operation": "add_multiplied_base",
+          "uuid": "9da7496e-6a39-4a0f-a411-1c042a0365e4"
+        },
+        {
+          "amount": {
+            "type": "minecraft:linear",
+            "base": 0.10,
+            "per_level_above_first": 0.05
+          },
+          "attribute": "minecraft:generic.movement_speed",
+          "name": "enchantment.berserker",
+          "operation": "add_multiplied_base",
+          "uuid": "f69daf80-7c2c-40d3-a979-a93c3eb87b09"
+        },
+        {
+          "amount": {
+            "type": "minecraft:linear",
+            "base": -0.15,
+            "per_level_above_first": -0.08
+          },
+          "attribute": "minecraft:generic.armor",
+          "name": "enchantment.berserker",
+          "operation": "add_multiplied_base",
+          "uuid": "439016dd-435a-4fab-9388-cafc9e39e9aa"
+        }
+      ]
+    },
+    "max_cost": {
+      "base": 18,
+      "per_level_above_first": 8
+    },
+    "max_level": 4,
+    "min_cost": {
+      "base": 10,
+      "per_level_above_first": 8
+    },
+    "slots": [
+      "armor"
+    ],
+    "exclusive_set": "#minecraft:exclusive_set/armor",
+    "supported_items": "#minecraft:enchantable/armor",
+    "weight": 2
+  }

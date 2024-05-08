@@ -1,0 +1,1 @@
+damage @s 0.5 tcc:fragile by @p

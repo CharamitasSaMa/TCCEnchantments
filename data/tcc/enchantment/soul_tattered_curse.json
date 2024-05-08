@@ -1,0 +1,36 @@
+{
+    "anvil_cost": 2,
+    "description": {
+      "translate": "enchantment.tcc.soul_tattered_curse",
+      "fallback":"裂魂诅咒"
+    },
+    "effects": {
+      "minecraft:attributes": [
+        {
+          "amount": {
+            "type": "minecraft:linear",
+            "base": -1,
+            "per_level_above_first": -1
+          },
+          "attribute": "minecraft:generic.max_health",
+          "name": "enchantment.soul_tattered_curse",
+          "operation": "add_value",
+          "uuid": "d33e7e2c-8fce-4c66-83a6-bc145318f565"
+        }
+      ]
+    },
+    "max_cost": {
+      "base": 18,
+      "per_level_above_first": 8
+    },
+    "max_level": 4,
+    "min_cost": {
+      "base": 10,
+      "per_level_above_first": 8
+    },
+    "slots": [
+      "armor"
+    ],
+    "supported_items": "#minecraft:enchantable/armor",
+    "weight": 2
+  }

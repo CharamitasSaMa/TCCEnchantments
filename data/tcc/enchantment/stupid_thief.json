@@ -1,0 +1,38 @@
+{
+    "anvil_cost": 8,
+    "description": {
+      "translate": "enchantment.tcc.stupid_thief",
+      "fallback":"蹩脚盗贼"
+    },
+    "effects": {
+      "minecraft:attributes": [
+        {
+          "amount": {
+            "type": "minecraft:linear",
+            "base": -0.05,
+            "per_level_above_first": -0.05
+          },
+          "attribute": "minecraft:player.sneaking_speed",
+          "name": "enchantment.swift_sneak",
+          "operation": "add_value",
+          "uuid": "92437d00-c3a7-4f2e-8f6c-1f21585d5dd0"
+        }
+      ]
+    },
+    "max_cost": {
+      "base": 75,
+      "per_level_above_first": 25
+    },
+    "max_level": 3,
+    "min_cost": {
+      "base": 25,
+      "per_level_above_first": 25
+    },
+    "slots": [
+      "legs"
+    ],
+    "exclusive_set": "#tcc:exclusive_set/swift_sneak",
+    "supported_items": "#minecraft:enchantable/leg_armor",
+    
+    "weight": 1
+  }
