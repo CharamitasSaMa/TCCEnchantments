@@ -13,9 +13,8 @@
             "per_level_above_first": 0.5
           },
           "attribute": "minecraft:player.entity_interaction_range",
-          "name": "enchantment.reach_increase",
-          "operation": "add_value",
-          "uuid": "e6fe36f3-8632-48ea-b04e-8f5672d050b8"
+          "id": "enchantment.reach_increase",
+          "operation": "add_value"
         }
       ]
     },

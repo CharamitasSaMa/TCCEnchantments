@@ -13,9 +13,8 @@
             "per_level_above_first": 0.08
           },
           "attribute": "minecraft:generic.movement_speed",
-          "name": "enchantment.escaper",
-          "operation": "add_multiplied_base",
-          "uuid": "e52b09ae-16c3-4bb1-8995-ba666d94718b"
+          "id": "enchantment.escaper",
+          "operation": "add_multiplied_base"
         }
       ]
     },

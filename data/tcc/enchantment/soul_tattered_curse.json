@@ -13,9 +13,8 @@
             "per_level_above_first": -1
           },
           "attribute": "minecraft:generic.max_health",
-          "name": "enchantment.soul_tattered_curse",
-          "operation": "add_value",
-          "uuid": "d33e7e2c-8fce-4c66-83a6-bc145318f565"
+          "id": "enchantment.soul_tattered_curse",
+          "operation": "add_value"
         }
       ]
     },

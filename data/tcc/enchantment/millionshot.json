@@ -5,18 +5,14 @@
       "fallback":"万箭齐发"
     },
     "effects": {
-      "minecraft:crossbow_charge_time": [
-        {
-          "effect": {
-            "type": "minecraft:add",
-            "value": {
-              "type": "minecraft:linear",
-              "base": 1,
-              "per_level_above_first": 0.25
-            }
-          }
+      "minecraft:crossbow_charge_time": {
+        "type": "minecraft:add",
+        "value": {
+          "type": "minecraft:linear",
+          "base": 1,
+          "per_level_above_first": 0.0
         }
-      ],
+      },
       "minecraft:projectile_count": [
         {
           "effect": {

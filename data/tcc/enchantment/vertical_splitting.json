@@ -13,9 +13,8 @@
                 "per_level_above_first": -100
               },
           "attribute": "minecraft:player.sweeping_damage_ratio",
-          "name": "enchantment.sweeping_edge",
-          "operation": "add_value",
-          "uuid": "5d3d087b-debe-4037-b53e-d84f3ff51f17"
+          "id": "enchantment.vertical_splitting",
+          "operation": "add_value"
         }
       ]
     },

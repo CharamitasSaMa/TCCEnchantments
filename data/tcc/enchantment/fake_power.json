@@ -15,9 +15,8 @@
               "per_level_above_first": 0.0105
             },
             "attribute": "minecraft:generic.movement_speed",
-            "name": "fake power boost",
-            "operation": "add_value",
-            "uuid": "d406a157-f949-465a-a94e-601941418593"
+            "id": "enchantment.fake_power",
+            "operation": "add_value"
           },
           "requirements": {
             "condition": "minecraft:all_of",
@@ -111,9 +110,8 @@
             "type": "minecraft:attribute",
             "amount": 1.0,
             "attribute": "minecraft:generic.movement_efficiency",
-            "name": "Fake power movement efficiency",
-            "operation": "add_value",
-            "uuid": "ba72b4e6-d0ae-4cc0-b735-819d3485b958"
+            "id": "enchantment.fake_power_movement",
+            "operation": "add_value"
           },
           "requirements": {
             "condition": "minecraft:entity_properties",

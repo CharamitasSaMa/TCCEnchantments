@@ -13,9 +13,8 @@
             "per_level_above_first": -0.10
           },
           "attribute": "minecraft:generic.movement_speed",
-          "name": "enchantment.tough_as_nail",
-          "operation": "add_multiplied_base",
-          "uuid": "2f786e85-e0df-4b20-a794-173e125443d2"
+          "id": "enchantment.tough_as_nail",
+          "operation": "add_multiplied_base"
         },
         {
           "amount": {
@@ -24,9 +23,8 @@
             "per_level_above_first": 3
           },
           "attribute": "minecraft:generic.armor",
-          "name": "enchantment.tough_as_nail",
-          "operation": "add_value",
-          "uuid": "78dcd6f5-518a-419f-b6eb-aac87c50ea23"
+          "id": "enchantment.tough_as_nail",
+          "operation": "add_value"
         },
         {
           "amount": {
@@ -35,9 +33,8 @@
             "per_level_above_first": 1.5
           },
           "attribute": "minecraft:generic.armor_toughness",
-          "name": "enchantment.tough_as_nail",
-          "operation": "add_value",
-          "uuid": "674c8be8-62e6-4866-bfcb-d45a2ea9704c"
+          "id": "enchantment.tough_as_nail",
+          "operation": "add_value"
         }
       ]
     },

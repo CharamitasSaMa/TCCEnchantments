@@ -5,18 +5,14 @@
       "fallback":"光粒打击"
     },
     "effects": {
-        "minecraft:crossbow_charge_time": [
-            {
-              "effect": {
-                "type": "minecraft:add",
-                "value": {
-                  "type": "minecraft:linear",
-                  "base": 0.25,
-                  "per_level_above_first": 0.25
-                }
-              }
-            }
-          ],
+      "minecraft:crossbow_charge_time": {
+        "type": "minecraft:add",
+        "value": {
+          "type": "minecraft:linear",
+          "base": 0.3,
+          "per_level_above_first": 0.3
+        }
+      },
         "minecraft:damage": [
             {
               "effect": {

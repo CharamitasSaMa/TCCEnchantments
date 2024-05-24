@@ -15,9 +15,8 @@
               "per_level_above_first": -0.0105
             },
             "attribute": "minecraft:generic.movement_speed",
-            "name": "Soul speed boost",
-            "operation": "add_value",
-            "uuid": "87f46a96-686f-4796-b035-22e16ee9e038"
+            "id": "enchantment.spectre_excitation",
+            "operation": "add_value"
           },
           "requirements": {
             "condition": "minecraft:all_of",
@@ -111,9 +110,8 @@
             "type": "minecraft:attribute",
             "amount": -1.0,
             "attribute": "minecraft:generic.movement_efficiency",
-            "name": "Soul speed movement efficiency",
-            "operation": "add_value",
-            "uuid": "b9716dbd-50df-4080-850e-70347d24e687"
+            "id": "enchantment.spectre_excitation.slowdown",
+            "operation": "add_value"
           },
           "requirements": {
             "condition": "minecraft:entity_properties",

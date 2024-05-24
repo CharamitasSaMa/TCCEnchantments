@@ -13,9 +13,8 @@
                 "per_level_above_first": 0.5
               },
               "attribute": "minecraft:generic.fall_damage_multiplier",
-              "name": "enchantment.glass_falling",
-              "operation": "add_value",
-              "uuid": "1f3ae126-da4c-4977-bb95-dd0f3ba7366a"
+              "id": "enchantment.glass_falling",
+              "operation": "add_value"
             },
             {
               "amount": {
@@ -24,9 +23,8 @@
                 "per_level_above_first": -0.5
               },
               "attribute": "minecraft:generic.safe_fall_distance",
-              "name": "enchantment.glass_falling",
-              "operation": "add_value",
-              "uuid": "e5ba09c0-f35c-4fa1-a2ef-4e353fbe3230"
+              "id": "enchantment.glass_falling_dist",
+              "operation": "add_value"
             }
           ]
     },

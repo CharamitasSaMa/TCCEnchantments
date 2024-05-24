@@ -13,9 +13,8 @@
             "per_level_above_first": 0.05
           },
           "attribute": "minecraft:generic.attack_damage",
-          "name": "enchantment.berserker",
-          "operation": "add_multiplied_base",
-          "uuid": "c46b479a-9560-4b07-81a8-6d7de28805a5"
+          "id": "enchantment.berserker.dmg",
+          "operation": "add_multiplied_base"
         },
         {
           "amount": {
@@ -24,9 +23,8 @@
             "per_level_above_first": 0.1
           },
           "attribute": "minecraft:generic.attack_speed",
-          "name": "enchantment.berserker",
-          "operation": "add_multiplied_base",
-          "uuid": "9da7496e-6a39-4a0f-a411-1c042a0365e4"
+          "id": "enchantment.berserker.atkspeed",
+          "operation": "add_multiplied_base"
         },
         {
           "amount": {
@@ -35,9 +33,8 @@
             "per_level_above_first": 0.05
           },
           "attribute": "minecraft:generic.movement_speed",
-          "name": "enchantment.berserker",
-          "operation": "add_multiplied_base",
-          "uuid": "f69daf80-7c2c-40d3-a979-a93c3eb87b09"
+          "id": "enchantment.berserker.speed",
+          "operation": "add_multiplied_base"
         },
         {
           "amount": {
@@ -46,9 +43,8 @@
             "per_level_above_first": -0.08
           },
           "attribute": "minecraft:generic.armor",
-          "name": "enchantment.berserker",
-          "operation": "add_multiplied_base",
-          "uuid": "439016dd-435a-4fab-9388-cafc9e39e9aa"
+          "id": "enchantment.berserker.armor",
+          "operation": "add_multiplied_base"
         }
       ]
     },
