@@ -2,7 +2,7 @@
     "anvil_cost": 4,
     "description": {
       "translate": "enchantment.tcc.instakill_axe",
-      "fallback":"秒人斧"
+      "fallback":"咬人虎"
     },
     "effects": {
       "minecraft:attributes": [
