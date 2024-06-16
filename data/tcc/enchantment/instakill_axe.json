@@ -1,0 +1,53 @@
+{
+    "anvil_cost": 4,
+    "description": {
+      "translate": "enchantment.tcc.instakill_axe",
+      "fallback":"秒人斧"
+    },
+    "effects": {
+      "minecraft:attributes": [
+        {
+            "amount": {
+                "type": "minecraft:linear",
+                "base": 99,
+                "per_level_above_first": 0.0
+              },
+          "attribute": "minecraft:generic.attack_damage",
+          "id": "enchantment.blade_of_blacksmith_add_damage",
+          "operation": "add_value"
+        }
+      ],
+      "minecraft:post_attack": [
+        {
+          "enchanted": "attacker",
+          "affected": "attacker",
+          "effect": {
+            "type": "minecraft:damage_item",
+            "amount": 32767
+          }
+        },
+        {
+          "enchanted": "victim",
+          "affected": "victim",
+          "effect": {
+            "type": "minecraft:damage_item",
+            "amount": 32767
+          }
+        }
+      ]
+    },
+    "max_cost": {
+      "base": 20,
+      "per_level_above_first": 9
+    },
+    "max_level": 1,
+    "min_cost": {
+      "base": 8,
+      "per_level_above_first": 13
+    },
+    "slots": [
+      "mainhand"
+    ],
+    "supported_items": "#minecraft:enchantable/gold_axe",
+    "weight": 2
+  }

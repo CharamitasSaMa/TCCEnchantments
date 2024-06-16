@@ -57,6 +57,6 @@
     "mainhand"
   ],
   "exclusive_set": "#tcc:exclusive_set/explosion_mahou",
-  "supported_items": "#tcc:enchantable/explosion_mahou",
+  "supported_items": "#minecraft:enchantable/explosion_mahou",
   "weight": 2
 }
