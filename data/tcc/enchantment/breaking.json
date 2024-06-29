@@ -71,5 +71,6 @@
       "mainhand"
     ],
     "supported_items": "#minecraft:enchantable/durability",
+    "exclusive_set": "#tcc:exclusive_set/unbreaking",
     "weight": 2
   }

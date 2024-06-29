@@ -9,8 +9,8 @@
         {
           "amount": {
             "type": "minecraft:linear",
-            "base": -0.18,
-            "per_level_above_first": -0.10
+            "base": -0.09,
+            "per_level_above_first": -0.05
           },
           "attribute": "minecraft:generic.movement_speed",
           "id": "enchantment.tough_as_nail",
@@ -19,8 +19,8 @@
         {
           "amount": {
             "type": "minecraft:linear",
-            "base": 4,
-            "per_level_above_first": 3
+            "base": 2,
+            "per_level_above_first": 1.5
           },
           "attribute": "minecraft:generic.armor",
           "id": "enchantment.tough_as_nail",
@@ -29,8 +29,8 @@
         {
           "amount": {
             "type": "minecraft:linear",
-            "base": 2,
-            "per_level_above_first": 1.5
+            "base": 1,
+            "per_level_above_first": 0.35
           },
           "attribute": "minecraft:generic.armor_toughness",
           "id": "enchantment.tough_as_nail",

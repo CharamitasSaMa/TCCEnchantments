@@ -19,7 +19,7 @@
             "amount": {
               "type": "minecraft:linear",
               "base": 0.0,
-              "per_level_above_first": 0.2
+              "per_level_above_first": 0.25
             }
           },
           "condition": "minecraft:random_chance"
@@ -38,7 +38,7 @@
             "amount": {
               "type": "minecraft:linear",
               "base": 0.0,
-              "per_level_above_first": 0.2
+              "per_level_above_first": 0.25
             }
           },
           "condition": "minecraft:random_chance"
@@ -57,7 +57,7 @@
             "amount": {
               "type": "minecraft:linear",
               "base": 0.0,
-              "per_level_above_first": 0.2
+              "per_level_above_first": 0.25
             }
           },
           "condition": "minecraft:random_chance"
@@ -76,7 +76,7 @@
             "amount": {
               "type": "minecraft:linear",
               "base": 0.0,
-              "per_level_above_first": 0.2
+              "per_level_above_first": 0.25
             }
           },
           "condition": "minecraft:random_chance"

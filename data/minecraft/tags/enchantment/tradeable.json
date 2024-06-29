@@ -42,6 +42,7 @@
       "tcc:neptune_reinforce",
       "tcc:lightspeed_arrow",
       "tcc:two_dim_foil",
-      "tcc:machine_gun"
+      "tcc:machine_gun",
+      "tcc:clever"
     ]
   }

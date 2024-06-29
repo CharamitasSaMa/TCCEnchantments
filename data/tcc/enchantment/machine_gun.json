@@ -19,7 +19,7 @@
           "affected": "attacker",
           "effect": {
             "type": "minecraft:damage_item",
-            "amount": 3
+            "amount": 1
           }
         }
       ]
