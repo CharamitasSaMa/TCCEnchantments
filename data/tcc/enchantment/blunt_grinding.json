@@ -2,7 +2,7 @@
     "anvil_cost": 1,
     "description": {
       "translate": "enchantment.tcc.blunt_grinding",
-      "fallback":"磨钝"
+      "fallback":"钝涩"
     },
     "effects": {
       "minecraft:damage": [
