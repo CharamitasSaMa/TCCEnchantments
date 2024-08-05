@@ -18,7 +18,7 @@
                   "type": "minecraft:enchantment_level",
                   "amount": {
                     "type": "minecraft:linear",
-                    "base": 0.0,
+                    "base": 0.3,
                     "per_level_above_first": 0.3
                   }
                 },

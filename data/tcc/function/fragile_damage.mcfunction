@@ -1,1 +1,1 @@
-damage @s 1 tcc:fragile
+damage @s 0.3 tcc:fragile
