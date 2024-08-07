@@ -35,14 +35,6 @@
             "type": "minecraft:damage_item",
             "amount": 32767
           }
-        },
-        {
-          "enchanted": "victim",
-          "affected": "victim",
-          "effect": {
-            "type": "minecraft:damage_item",
-            "amount": 32767
-          }
         }
       ]
     },
