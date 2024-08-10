@@ -7,25 +7,6 @@
   "effects": {
     "minecraft:post_attack": [
       {
-        "affected": "attacker",
-        "effect": {
-          "type": "minecraft:run_function",
-          "function": "tcc:yamato_judgement_cooldown"
-        },
-        "enchanted": "attacker",
-        "requirements": {
-          "chance": {
-            "type": "minecraft:enchantment_level",
-            "amount": {
-              "type": "minecraft:linear",
-              "base": 0.0,
-              "per_level_above_first": 0.25
-            }
-          },
-          "condition": "minecraft:random_chance"
-        }
-      },
-      {
         "affected": "victim",
         "effect": {
           "type": "minecraft:run_function",
