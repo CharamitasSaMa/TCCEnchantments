@@ -1,1 +1,1 @@
-summon minecraft:area_effect_cloud ~ ~1 ~ {potion_contents:{custom_effects:[{duration:2,id:"minecraft:weakness",amplifier:255}]},Radius:1,Duration:10,WaitTime:0}
+summon minecraft:area_effect_cloud ~ ~1 ~ {potion_contents:{custom_effects:[{duration:2,id:"minecraft:weakness",amplifier:255}]},Radius:0.6,Duration:2,WaitTime:0}
